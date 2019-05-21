@@ -31,3 +31,35 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  padding: 1rem 3rem;
+  min-width: 200px;
+  border: 1px solid #56c4e2;
+  border-radius: 3rem;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(0,0,0,.1);
+  background-color: #61dafb;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  &.og-button-section {
+    background-color: pink;
+  }
+
+  &.state-button-section {
+    background-color: orange;
+  }
+
+  &.lifecycle-section {
+    background-color: aqua;
+  }
+}
